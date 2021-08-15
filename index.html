@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To Do List</title>
+    <!-- fontawesome css1 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- materialize css1 js1-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+    
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-12">
+
+            <div id="main" class="card">
+
+                <div class="card-content">
+                    <span class="card-title">Tasks List</span>
+
+                    <div class="row">
+                        <form id="task-form" action="" method="">
+                            <div class="input-field col-12">
+                                <label for="task">New Task</label>
+                                <input type="text" name="task" id="task" class="" autocomplete="off"/>
+                            </div>
+                            <input type="submit" class="btn" value="Add Task"/>
+                        </form>
+                    </div>
+
+                </div>
+
+                <div class="card-action">
+                    <h5>All Tasks</h5>
+
+                    <div class="input-field col-12">
+                        <label for="filter">Filter Tasks</label>
+                        <input type="text" name="filter" id="filter" class=""/>
+                    </div>
+                    <ul class="collection"></ul>
+                    <a href="#" class="btn clear-tasks">Clear Tasks</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" type="text/javascript"></script>
+    <!-- materialize css1 js1 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
